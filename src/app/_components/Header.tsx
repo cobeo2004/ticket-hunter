@@ -53,6 +53,13 @@ function Header() {
               <UserButton />
             </div>
           </SignedIn>
+          <SignedOut>
+            <SignInButton mode="modal">
+              <Button className="bg-gray-100 text-gray-800 px-3 py-1.5 text-sm rounded-lg hover:bg-gray-200 transition border border-gray-300">
+                Sign In
+              </Button>
+            </SignInButton>
+          </SignedOut>
         </div>
         <div className="lg:hidden w-full flex justify-center gap-3">
           <SignedIn>
